@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Ayubo Leisure sys.exe" version="1.0.0.0" publicKeyToken="6c0980193942604a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Ayubo Leisure sys" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Ayubo Leisure sys.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ayubo Leisure sys.exe" size="283136">
+      <assemblyIdentity name="Ayubo Leisure sys" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NE90o9SpeXuAcD5HbxnmNMnwwl10MTKFhLFO9OHfhIk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Ayubo Leisure sys.exe.config" size="777">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GgF0w/1Q2OTYJD8edAR1pbgfbIiHiHoZAyE3s8qN/Nc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HP\madushan" issuerKeyHash="a49efc98821cc2fc336480417e2b768e6ee0b0aa" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>aTDfT0fVeTz8mGYMIYdjefITFY69cZuUmte36nHIaHw=</DigestValue></Reference></SignedInfo><SignatureValue>WN/86SqPcG8lY5lAt8Htx1dMGlLiTB3r5+hAFzhLO3J7+NmKLJnDI81TYaqVst7rBKy3h55vxqhgqQhf2ZBzN3RkTgBSqIs7vPnPcvhmxlOii+Gh6Oh4xhx3lKJ74yuAWdBL5R9ElLH8+Upbqn5vieyizSWsYIiiyl+xb+yUoJU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2I4pddg8NffOsu58nvT5o+vcc8ZEFTkwq7o7k/K7EgwYiPwRWiZ2ai8zEO14zJW+FgGEfBwFRaOSKb037gCIXIJq1cZtvHxPraIHGk5AAuWRgM4ZBrotjeEHAGSrJbC1t1FPcfVtqDIt7lEK/oAwSTNjg/HjPz7jjBxc6BweFCE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7c68c871eab7d79a949b71bd8e1513f2796387210c6698fc3c79d5474fdf3069" Description="" Url=""><as:assemblyIdentity name="Ayubo Leisure sys.exe" version="1.0.0.0" publicKeyToken="6c0980193942604a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HP\madushan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8Tvd+swxjGBvQe4lwQyNBi3FRKnPrEz/2L2nFE1yspI=</DigestValue></Reference></SignedInfo><SignatureValue>1XpRLK9y9xo/gYplCcOHrjnOItZQKcRyvKOGfc5VqmLsKPYV0qrJx4tDYgf/SQheVkOzY/ewZ3+nDl+Px/cOUtiby5dMXWyHoJpTXTMCdlqO2wkyzqF61zxSWCyfl5WrWcMFZvYwnCm6GsdKgYK7u8EcYUfw7p/TWjVIv+Cu+fs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2I4pddg8NffOsu58nvT5o+vcc8ZEFTkwq7o7k/K7EgwYiPwRWiZ2ai8zEO14zJW+FgGEfBwFRaOSKb037gCIXIJq1cZtvHxPraIHGk5AAuWRgM4ZBrotjeEHAGSrJbC1t1FPcfVtqDIt7lEK/oAwSTNjg/HjPz7jjBxc6BweFCE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQXukMQHPun51OP1iu3oNEsDANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYASABQAFwAbQBhAGQAdQBzAGgAYQBuMB4XDTIxMDMyNDIxMDI0OVoXDTIyMDMyNTAzMDI0OVowITEfMB0GA1UEAx4WAEgAUABcAG0AYQBkAHUAcwBoAGEAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA2I4pddg8NffOsu58nvT5o+vcc8ZEFTkwq7o7k/K7EgwYiPwRWiZ2ai8zEO14zJW+FgGEfBwFRaOSKb037gCIXIJq1cZtvHxPraIHGk5AAuWRgM4ZBrotjeEHAGSrJbC1t1FPcfVtqDIt7lEK/oAwSTNjg/HjPz7jjBxc6BweFCECAwEAATANBgkqhkiG9w0BAQsFAAOBgQDQd0rFW6mBVFa3s3CQK+FjvMDJG9wvSUxFD8Rp61/uRYF88vEbDElfyNv5kPlJhl7v0B1tLJO1XPIIUi2LHmmEtscjA6LI55QgYfytlQv9VbbJXARgODKa7Reqwf3g5RcJZnZ7QuOXseOrLMPp4uFAU16wNghiMJUblj8Z+0aACA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

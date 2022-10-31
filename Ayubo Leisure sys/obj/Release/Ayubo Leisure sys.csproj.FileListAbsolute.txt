@@ -1,0 +1,12 @@
+G:\Windwsbase\Ayubo Leisure sys\Ayubo Leisure sys\bin\Release\Ayubo Leisure sys.exe.config
+G:\Windwsbase\Ayubo Leisure sys\Ayubo Leisure sys\bin\Release\Ayubo Leisure sys.exe
+G:\Windwsbase\Ayubo Leisure sys\Ayubo Leisure sys\bin\Release\Ayubo Leisure sys.pdb
+G:\Windwsbase\Ayubo Leisure sys\Ayubo Leisure sys\obj\Release\Ayubo_Leisure_sys.Day.resources
+G:\Windwsbase\Ayubo Leisure sys\Ayubo Leisure sys\obj\Release\Ayubo_Leisure_sys.Desk.resources
+G:\Windwsbase\Ayubo Leisure sys\Ayubo Leisure sys\obj\Release\Ayubo_Leisure_sys.Form1.resources
+G:\Windwsbase\Ayubo Leisure sys\Ayubo Leisure sys\obj\Release\Ayubo_Leisure_sys.login_form.resources
+G:\Windwsbase\Ayubo Leisure sys\Ayubo Leisure sys\obj\Release\Ayubo_Leisure_sys.long.resources
+G:\Windwsbase\Ayubo Leisure sys\Ayubo Leisure sys\obj\Release\Ayubo_Leisure_sys.Properties.Resources.resources
+G:\Windwsbase\Ayubo Leisure sys\Ayubo Leisure sys\obj\Release\Ayubo Leisure sys.csproj.GenerateResource.Cache
+G:\Windwsbase\Ayubo Leisure sys\Ayubo Leisure sys\obj\Release\Ayubo Leisure sys.exe
+G:\Windwsbase\Ayubo Leisure sys\Ayubo Leisure sys\obj\Release\Ayubo Leisure sys.pdb
